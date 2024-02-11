@@ -11,12 +11,14 @@ namespace ConsoleApp8
         static void Main(string[] args)
         {
 
-            int a, b, c, sonuc;
+            int a, b, c, d, e, sonuc;
 
             a = 5;
             b = 4;
             c = 6;
-            sonuc = a + b + c;
+            d = 7;
+            e = 8;
+            sonuc = a + b + c * d / e;
 
             Console.WriteLine(sonuc);
             Console.ReadLine();
