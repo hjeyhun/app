@@ -11,3 +11,6 @@
 [remote "origin2"]
 	url = https://github.com/hjeyhun/app.git
 	fetch = +refs/heads/*:refs/remotes/origin2/*
+[remote "origin3"]
+	url = https://github.com/hjeyhun/app.git
+	fetch = +refs/heads/*:refs/remotes/origin3/*
